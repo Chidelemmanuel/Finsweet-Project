@@ -491,8 +491,6 @@ input {
 
 .car {
     width: 350px;
-    /* margin-left: -280px; */
-    /* z-index: 2; */
 }
 
 .details {
@@ -559,24 +557,23 @@ span > img {
     color: #1E1B1B;
 }
 
-
 @media (max-width: 320px) {
 
     .finsweet {
         display: flex;
-        margin: 40px auto;
+        margin: 60px auto;
         align-items: center;
         justify-content: center;
-        width: 80%;
+        width: 100%;
     }
 
     nav {
         margin: 10px 0px;
         display: flex;
-        width: 100%;
+        width: 80%;
         justify-content: center;
-        align-items: center;
         flex-direction: column;
+        margin-bottom: 100px;
     }
 
     .group {
@@ -600,6 +597,7 @@ span > img {
 
     .last {
         display: flex;
+        align-items: center;
     }
 
     .icon > img {
@@ -623,21 +621,24 @@ span > img {
         display: flex;
         justify-content: center;
         flex-direction: column-reverse;
+        width: 100%;
+        margin: auto;
     }
 
     .text {
         display: flex;
         justify-content: center;
         align-items: center;
-        margin-top: -50px;
     }
 
     .text h1 {
         font-size: 25px;
+        line-height: 40px;
+        text-align: center;
+        margin-top: 20px;
     }
 
     button {
-        margin-left: -100px;
         width: 50%;
     }
 
@@ -651,34 +652,217 @@ span > img {
         font-weight: 600;
     }
 
-    .container {
+    .container-image {
         display: flex;
+        margin: 20px auto;
+        overflow-wrap: normal;
     }
 
     .image2 > img {
+        margin-top: -100px;
         width: 280px;
         height: 250px;
     }
 
     .service > img {
-        width: 200px;
-        height: 150px;
+        width: 250px;
+        height: 130px;
     }
 
     .service {
         position: absolute;
-        top: -10px;
+        top: -100px;
         left: -60px;
     }
 
     .rating {
         position: absolute;
-        top: 130px;
-        right: -75px;
+        top: 50px;
+        right: -50px;
     }
 
     .rating > img {
-        width: 200px;
-        height: 150px;
+        width: 250px;
+        height: 130px;
+    }
+
+    .small span {
+        margin-top: 5px;
+    }
+
+    .wrapper {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .wrap {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .first h2 {
+        font-size: 23px;
+        line-height: 30px;
+        margin: 20px auto;
+    }
+
+    .p-text {
+        font-weight: 100;
+        font-size: 10px;
+        line-height: 1px;
+    }
+
+    .second {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .second h3 {
+        font-size: 25px;
+        line-height: 30px;
+    }
+
+    input {
+        width: 100%;
+    }
+
+    .form {
+        margin-top: 30px;
+    }
+
+    .btn {
+        width: 100%;
+        margin-top: 30px;
+    }
+
+    .anoda {
+        display: flex;
+        justify-content: center;
+        width: 80%;
+        flex-direction: column;
+    }
+
+    .path h2 {
+        font-size: 25px;
+        line-height: 40px;
+        margin-top: -50px
+    }
+
+    .p {
+        margin-top: 20px;
+    }
+
+    .bttn {
+        width: 100%;
+        margin-top: 40px;
+    }
+
+    .design {
+        margin-top: -100px;
+    }
+
+    .pic {
+        gap: 0;
+    }
+
+    .pic > img {
+        width: 50px;
+        height: 50px;
+    }
+
+    .pic p {
+        font-size: 18px;
+        margin-top: -10px;
+    }
+
+    .pics {
+        display: flex;
+        gap: 15px;
+    }
+
+    .pics > img {
+        margin-left: -10px;
+    }
+
+    .pics p {
+        font-size: 12px;
+        line-height: 22px;
+        font-weight: 400;
+        margin-top: 10px;
+    }
+
+    .what {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .what p {
+        font-size: 20px;
+    }
+
+    .what h2 {
+        font-size: 20px;
+        line-height: 30px;
+    }
+
+    .all {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .first-box {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .learn {
+        display: none;
+    }
+
+    .picture {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        height: 60vh;
+    }
+
+    .car {
+        width: 320px;
+        height: 200px;
+    }
+
+    .details {
+        width: 100%;
+        align-items: center;
+    }
+
+    .details h3 {
+        font-size: 20px;
+        line-height: 30px;
+        padding: 20px;
+        text-align: center;
+    }
+
+    .us {
+        width: 50%;
+        margin-bottom: 20px;
+    }
+
+    .heads {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .all-head {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .each {
+        text-align: center;
     }
 }
