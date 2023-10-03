@@ -678,7 +678,7 @@ span > img {
     .rating {
         position: absolute;
         top: 50px;
-        right: -50px;
+        right: -20px;
     }
 
     .rating > img {
