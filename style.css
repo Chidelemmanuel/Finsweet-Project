@@ -11,7 +11,7 @@
     display: flex;
     justify-content: center;
     width: 80%;
-    height: 100vh;   
+    height: 99vh;   
     margin: auto;
     color: #1E1B1B;
     flex-direction: column;
@@ -75,7 +75,7 @@ nav {
     display: flex;
     width: 100%;
     justify-content: space-between;
-    height: 94vh;
+    /* height: 94vh; */
     background-color: #fff;
     margin-top: 10px;
 }
@@ -174,7 +174,6 @@ span :nth-child(2) {
     background-color: #E2E6E9;
     width: 100%;
     flex-direction: column;
-    /* height: 100vh; */
 }
 
 .wrap {
@@ -557,6 +556,336 @@ span > img {
     color: #1E1B1B;
 }
 
+@media (max-width: 768px) {
+    .finsweet {
+        display: flex;
+        margin: 5px auto;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        height: 70vh;
+    }
+
+    nav {
+        margin: 10px 0px;
+        display: flex;
+        width: 80%;
+        justify-content: space-between;
+        margin-bottom: 100px;
+    }
+
+    .group {
+        display: flex;
+    }
+
+    .list {
+        display: flex;
+        border-right: 1px solid #ccc;
+        padding: 0;
+    }
+
+    .list ul li {
+        display: flex;
+        flex-direction: column;
+        font-size: 8px;
+        font-weight: 700;
+    }
+
+    .last {
+        display: flex;
+        align-items: center;
+    }
+
+    .icon > img {
+        margin: 0px 15px;
+        width: 20px;
+        height: 25px;
+        line-height: 20px;
+    }
+
+    .road {
+        font-size: 9px;
+        font-weight: 400;
+    }
+
+    .number {
+        font-size: 10px;
+        font-weight: 600;
+    }
+
+    .container {
+        display: flex;
+        justify-content: space-between;
+        width: 80%;
+        margin: auto;
+        gap: 70px;
+    }
+
+    .text {
+        display: flex;
+        justify-content: center;
+        margin-top: -100px;
+    }
+
+    .text h1 {
+        font-size: 25px;
+        line-height: 40px;
+        margin-top: 20px;
+    }
+
+    button {
+        width: 60%;
+    }
+
+    span :nth-child(1) {
+        font-weight: 400;
+        font-size: 11px;
+    }
+
+    span :nth-child(2) {
+        font-size: 12px;
+        font-weight: 600;
+    }
+
+    .container-image {
+        display: flex;
+        margin: 20px auto;
+        overflow-wrap: normal;
+    }
+
+    .image2 > img {
+        margin-top: -100px;
+        width: 280px;
+        height: 250px;
+    }
+
+    .service > img {
+        width: 250px;
+        height: 130px;
+    }
+
+    .service {
+        position: absolute;
+        top: -100px;
+        left: -75px;
+    }
+
+    .rating {
+        position: absolute;
+        top: 50px;
+        right: -65px;
+    }
+
+    .rating > img {
+        width: 250px;
+        height: 130px;
+    }
+
+    .small span {
+        margin-top: 5px;
+    }
+
+    .wrapper {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+    }
+
+    .wrap {
+        display: flex;
+        justify-content: space-between;
+        gap: 30px;
+        width: 90%;
+    }
+
+    .first h2 {
+        font-size: 23px;
+        line-height: 30px;
+        margin: 0px auto;
+    }
+
+    .p-text {
+        font-weight: 100;
+        font-size: 10px;
+        line-height: 1px;
+    }
+
+    .second {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .second h3 {
+        font-size: 25px;
+        line-height: 30px;
+    }
+
+    input {
+        width: 100%;
+    }
+
+    .form {
+        margin-top: 30px;
+    }
+
+    .btn {
+        width: 100%;
+        margin-top: 30px;
+    }
+
+    .anoda {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 80%;
+    }
+
+    .path {
+        display: flex;
+        width: 50%;
+        margin-top: -100px;
+    }
+
+    .path h2 {
+        font-size: 19px;
+        line-height: 40px;
+    }
+
+    .p {
+        margin-top: 20px;
+    }
+
+    .bttn {
+        width: 100%;
+        margin-top: 40px;
+    }
+
+    .design {
+        display: flex;
+        width: 50%;
+        margin-left: -100px;
+    }
+
+    .pic {
+        gap: 0;
+    }
+
+    .pic > img {
+        width: 50px;
+        height: 50px;
+    }
+
+    .pic p {
+        font-size: 18px;
+        margin-top: -10px;
+    }
+
+    .pics {
+        display: flex;
+        gap: 15px;
+    }
+
+    .pics > img {
+        margin-left: -10px;
+    }
+
+    .pics p {
+        font-size: 12px;
+        line-height: 22px;
+        font-weight: 400;
+        margin-top: 10px;
+    }
+
+    #push {
+        margin-left: 50px;
+    }
+
+    .what {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .what p {
+        font-size: 20px;
+    }
+
+    .what h2 {
+        font-size: 20px;
+        line-height: 30px;
+    }
+
+    .all {
+        display: flex;
+    }
+
+    .first-box {
+        display: flex;
+    }
+
+    .box {
+        width: 160px;
+        height: 100px;
+    }
+
+    .box p {
+        font-size: 13px;
+    }
+
+    .learn {
+        display: none;
+    }
+
+    .picture {
+        display: flex;
+        align-items: center;
+        /* flex-direction: column; */
+        height: 35vh;
+    }
+
+    .car {
+        width: 320px;
+        height: 170px;
+    }
+
+    .details {
+        width: 100%;
+        align-items: center;
+    }
+
+    .details h3 {
+        font-size: 20px;
+        line-height: 30px;
+        padding: 20px;
+        text-align: center;
+    }
+
+    .us {
+        width: 50%;
+        margin-bottom: 20px;
+    }
+
+    .heads {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .all-head {
+        display: flex;
+        /* flex-direction: column; */
+        align-items: center;
+    }
+
+    .each {
+        text-align: center;
+    }
+
+    .each p {
+        font-size: 15px;
+    }
+}
+
 @media (max-width: 320px) {
 
     .finsweet {
@@ -791,6 +1120,10 @@ span > img {
         line-height: 22px;
         font-weight: 400;
         margin-top: 10px;
+    }
+
+    #push {
+        margin-left: 0px;
     }
 
     .what {
